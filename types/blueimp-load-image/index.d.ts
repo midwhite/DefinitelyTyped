@@ -10,7 +10,7 @@
 
 export type LoadImageCallback = (eventOrImage: Event | HTMLCanvasElement | HTMLImageElement, data?: MetaData) => void;
 
-export type ParseMetaDataCallback = (data: ImageHead) => void;
+export type ParseMetaDataCallback = (data: MetaData) => void;
 
 export interface Exif {
     [tag: number]: number | string | string[];
